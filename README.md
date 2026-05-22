@@ -31,6 +31,7 @@ This app provides a dark-themed market intelligence dashboard with a default SUI
 - Open the app locally (`streamlit run app.py`).
 - Use the sidebar search box labeled "Search coins" to filter results by coin name or symbol.
 - The Market Overview table (left) updates to show matching coins; select a coin from the table to view its persistent price chart and metrics on the left.
+- or go to: https://opalscryptodashboard.streamlit.app/
 
 ### Notes
 - Data is sourced directly from the CoinGecko API.

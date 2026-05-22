@@ -75,7 +75,7 @@ st.title("CoinGecko Pulse — Crypto Market Intelligence")
 st.markdown(
     "Explore top movers, a default watchlist with SUI, and rich market insights in a dark-mode dashboard."
 )
-st.caption("Created by ohhimac")
+st.caption("Created by Opal Fraser")
 
 vs_currency = st.sidebar.selectbox("Quote currency", ["usd", "eur", "gbp"], index=0)
 coin_search = st.sidebar.text_input("Search coins", value="bitcoin")
@@ -164,11 +164,11 @@ else:
             f"Price ({vs_currency.upper()})",
             "24h %",
         ]
-        st.dataframe(gainers_df, use_container_width=True)
+        st.dataframe(gainers_df, width='stretch')
 
     with market_section:
         st.subheader("Market overview")
-        st.dataframe(coins_df.head(20), use_container_width=True)
+        st.dataframe(coins_df.head(20), width='stretch')
 
         selected_coin = st.selectbox("Select coin for chart", coins_df["Name"].tolist())
         if selected_coin:

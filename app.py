@@ -86,11 +86,11 @@ st.markdown(
     """
     **How to view the Market Overview:**
 
-    Use the sidebar Search coins box to filter by coin name or symbol.
-
-    The Market Overview table on the left updates to show matching coins.
-
-    Selecting a coin displays its persistent price chart and metrics on the left.
+    > Use the sidebar Search coins box to filter by coin name or symbol.
+>
+> The Market Overview table on the left updates to show matching coins.
+>
+> Selecting a coin displays its persistent price chart and metrics on the left.
     """,
     unsafe_allow_html=True,
 )

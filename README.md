@@ -1,4 +1,4 @@
-# codex
+# CoinGecko Pulse — Crypto Market Intelligence
 Repository for AI, automation, and development projects.
 
 ## Streamlit CoinGecko Dashboard

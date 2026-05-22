@@ -1,2 +1,2 @@
 # codex
-for Codex projects
+Repository for AI, automatio, and development projects.

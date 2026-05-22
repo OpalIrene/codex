@@ -1,5 +1,4 @@
 # CoinGecko Pulse — Crypto Market Intelligence
-Repository for AI, automation, and development projects.
 
 ## Streamlit CoinGecko Dashboard
 A lightweight Python dashboard built with Streamlit that uses the CoinGecko API to display crypto market data and historical price charts.
